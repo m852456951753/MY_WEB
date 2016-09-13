@@ -1,0 +1,308 @@
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+
+/*                  全 域                    */
+
+
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+body {
+    margin: 0px;
+}
+#header {
+    width: 100%;
+    background-color: #fff;
+}
+#header>.container {
+    width: 100%;
+    background-color: orange;
+    overflow: hidden;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+#taste {
+    background-image: url('../images/bg/bg_02.jpg');
+}
+#menuicon {
+    width: 15.6%;
+    height: 88px;
+    background-color: red;
+    float: left;
+}
+.db {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Sronly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+#logo {
+    width: 35.3%;
+    height: 88px;
+    background-color: purple;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#membercontent {
+    width: 20.8%;
+    height: 88px;
+    background-color: blue;
+    float: right;
+    margin-right: 2%;
+}
+#membercontent>div {
+    float: left;
+    width: 50%;
+    height: 88px;
+}
+#membericon {
+    background-color: brown;
+}
+#carticon {
+    background-color: green;
+}
+#primarynavigation {
+    width: 100%;
+    background-color: aqua;
+    float: left;
+}
+#primarynavigation>ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#primarynavigation>ul>li {
+    width: 100%;
+    height: 60px;
+    background-color: #FD9596;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 60px;
+}
+#primarynavigation>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+#bannercontent {
+    width: 100%;
+    height: 300px;
+    background-color: #8a6e39;
+}
+.content {
+    width: 100%;
+    background-color: lightblue;
+}
+.newimg {
+    display: none;
+}
+.newsdate {
+    color: #9FB783;
+    font-family: "Verdana", sans-serif;
+}
+.newstitle>a {
+    color: #000;
+}
+#tast.wrap {
+    position: relative;
+}
+.tigtag {
+    top: -21px;
+    right: 12px;
+    width: 51px;
+    height: 46px;
+    background-color: #15a5da;
+    position: absolute;
+}
+#copyrights {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    text-align: center;
+}
+.container img {
+    width: 100%;
+}
+#SocietyContent i:hover{
+
+  color: #9EB682;
+}
+
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+
+/*                手機轉置                    */
+
+
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 481px) {
+    body {}
+}
+
+/*///////////////////////////////////////////*/
+
+
+/*                  平板版                   */
+
+
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) {
+    body {}
+    #header>.container {
+        width: 90%;
+    }
+    #news {
+        background-image: url('../images/bg/bg_buttom.png'), url('../images/bg/bg_top.png'), url('../images/bg/bg_01.jpg');
+        background-position: top, bottom, top left;
+        background-repeat: repeat-x, repeat-x, repeat;
+
+    }
+    #menuicon {
+        display: none;
+    }
+    #logo {
+        margin-left: 39%;
+        width: 22%;
+        height: 29px;
+        margin-top: 69px;
+    }
+    #membercontent {
+        width: 80px;
+        height: 40px;
+    }
+    #membercontent>div {
+        width: 40px;
+        height: 40px;
+    }
+    #primarynavigation {
+        width: 51.8%;
+        float: none;
+        margin: auto;
+        clear: both;
+    }
+    #primarynavigation>ul>li {
+        width: 25%;
+        border: none;
+        background-color: #fff;
+        float: left;
+    }
+    #primarynavigation>ul>li>a {
+        color: #000;
+    }
+    .content {
+        width: 33.3333333333%;
+        float: left;
+    }
+    .wrap {
+        width: 95%;
+        background-color: gray;
+    }
+    .container {
+        overflow: hidden;
+    }
+    .newsimg {
+        display: block;
+    }
+    .pccontent {
+        margin-bottom: 14px;
+        overflow: hidden;
+    }
+    .pcimgcontent {
+        width: 57.2%;
+        background-color: brown;
+        float: left;
+    }
+    .pcdecription {
+        float: left;
+        width: 42.8%;
+        height: 300px;
+        background-color: orange;
+        text-align: center;
+    }
+    .pcimgright {
+        float: right;
+    }
+    #contactcontent, #societycontent {
+        width: 50%;
+        float: left;
+    }
+    #societycontent {
+        text-align: right;
+       font-size: 100px;
+    }
+    #societycontent i{
+      color: black;
+    }
+    #societycontent i:hover{
+
+      color: #9EB682;
+    }
+    facebookicon, #googleplus, #facebookicon>a, #googleplus>a {
+        display: inline;
+    }
+}
+
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+
+/*                  PC 版                    */
+
+
+/*///////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 981px) {
+    body {}
+    .container, #header>.container {
+        max-width: 1170px;
+    }
+    #primarynavigation>ul>li>a:hover {
+        background-color: pink;
+        color: red;
+    }
+    #bannerleft {
+        width: 10%;
+        height: 300px;
+        background-color: #999999;
+        float: left;
+    }
+    #bannercontent {
+        width: 80%;
+        float: left;
+    }
+    #bannerright {
+        width: 10%;
+        height: 300px;
+        background-color: #777777;
+        float: left;
+    }
+
+}
